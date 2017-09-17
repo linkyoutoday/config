@@ -1,0 +1,154 @@
+baseurl             = "http://linkyou.today" # Controls base URL
+languageCode        = "en-us" # Controls html lang attribute
+title               = "Link You Today" # Homepage title and page title suffix
+paginate            = 20 # Number of posts to show before paginating
+
+enableRobotsTXT     = true # Suggested, enable robots.txt file
+googleAnalytics     = "" # Optional, add tracking Id for analytics
+#SectionPagesMenu    = "main" # Enable menu system for lazy bloggers
+metaDataFormat      = "yaml"
+#canonifyURLs       = true
+relativeURLs        = true
+RemovePathAccents   = true
+PreserveTaxonomyNames = true
+theme                = "habano"
+
+[taxonomies]
+  tag         = "Tags"
+  category    = "Categories"
+
+[permalinks]
+  cli               = "/:section/:slug/"
+  cms               = "/:section/:slug/"
+  data-base         = "/:section/:slug/"
+  data-processing   = "/:section/:slug/"
+  desktop           = "/:section/:slug/"
+  devops            = "/:section/:slug/"
+  editors           = "/:section/:slug/"
+  games             = "/:section/:slug/"
+  hardware          = "/:section/:slug/"
+  media             = "/:section/:slug/"
+  mobile            = "/:section/:slug/"
+  network           = "/:section/:slug/"
+  news              = "/:section/:slug/"
+  nosql             = "/:section/:slug/"
+  office            = "/:section/:slug/"
+  os                = "/:section/:slug/"
+  programming       = "/:section/:slug/"
+  science           = "/:section/:slug/"
+  security          = "/:section/:slug/"
+  vcs               = "/:section/:slug/"
+  web-server        = "/:section/:slug/"
+  webdev            = "/:section/:slug/"
+[params]
+  description       = "Promote and Track Free/Libre Software Movement" # Suggested, controls homepage description meta
+  author            = "sedlav" # Optional, controls author name display on posts
+  show_menu         = true # Optional, set false to disable menu entirely
+  powered_by        = true # Optional, set false to disable theme credits
+
+  [params.seo]
+    google_verify   = "" # Optional, Google verification code
+    bing_verify     = "" # Optional, Bing verification code
+    yandex_verify   = "" # Optional, Yandex verification code
+
+[[menu.main]]
+  name    = "home"
+  url     = "/"
+  weight  = 1
+[[menu.main]]
+  name    = "cli"
+  url     = "cli"
+  weight  = 2
+[[menu.main]]
+  name    = "cms"
+  url     = "cms"
+  weight  = 2
+[[menu.main]]
+  name    = "data base"
+  url     = "data-base"
+  weight  = 2
+[[menu.main]]
+  name    = "data processing"
+  url     = "data-processing"
+  weight  = 2
+[[menu.main]]
+  name    = "desktop"
+  url     = "desktop"
+  weight  = 2
+[[menu.main]]
+  name    = "devops"
+  url     = "devops"
+  weight  = 2
+[[menu.main]]
+  name    = "editors"
+  url     = "editors"
+  weight  = 2
+[[menu.main]]
+  name    = "games"
+  url     = "games"
+  weight  = 2
+[[menu.main]]
+  name    = "hardware"
+  url     = "hardware"
+  weight  = 2
+[[menu.main]]
+  name    = "media"
+  url     = "media"
+  weight  = 2
+[[menu.main]]
+  name    = "mobile"
+  url     = "mobile"
+  weight  = 2
+[[menu.main]]
+  name    = "network"
+  url     = "network"
+  weight  = 2
+[[menu.main]]
+  name    = "news"
+  url     = "news"
+  weight  = 2
+[[menu.main]]
+  name    = "nosql"
+  url     = "nosql"
+  weight  = 2
+[[menu.main]]
+  name    = "office"
+  url     = "office"
+  weight  = 2
+[[menu.main]]
+  name    = "os"
+  url     = "os"
+  weight  = 2
+[[menu.main]]
+  name    = "programming"
+  url     = "programming"
+  weight  = 2
+[[menu.main]]
+  name    = "rms"
+  url     = "rms"
+  weight  = 2
+[[menu.main]]
+  name    = "science"
+  url     = "science"
+  weight  = 2
+[[menu.main]]
+  name    = "security"
+  url     = "security"
+  weight  = 2
+[[menu.main]]
+  name    = "vcs"
+  url     = "vcs"
+  weight  = 2
+[[menu.main]]
+  name    = "web server"
+  url     = "web-server"
+  weight  = 2
+[[menu.main]]
+  name    = "webdev"
+  url     = "webdev"
+  weight  = 2
+[[menu.main]]
+  name    = "Subscribe"
+  url     = "/index.xml"
+  eight   = 3
+
